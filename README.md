@@ -16,6 +16,6 @@ sua máquina!</h4>
 C#: Vá na classe ConnectionString e altere a string de conexão no Return do método
 StringConexao().
 
-<img src="https://i.imgur.com/cvz3Cki.png" width="100px">
+<img src="https://i.imgur.com/cvz3Cki.png" width="1000px">
 
 

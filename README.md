@@ -6,7 +6,7 @@ Meu nome é Miguel Teles, sou técnico em informática pela Escola Técnica Esta
 
 O projeto de TCC foi dividido em 4 partes: uma aplicação desktop em C#, outra aplicação desktop em Java, uma aplicação Web em ASP.NET e uma aplicação Mobile em Java. Por mim, foram feitos, por completo, o c#, java e mobile. 
 
-![](https://img.shields.io/static/v1?label=<Language>&message=<C#>&color=<blue>?style=flat-square&logo=appveyor)
+![](https://img.shields.io/static/v1?label=<Linguagem>&message=<C#>&color=<blue>?style=flat-square&logo=appveyor)
 
 Aqui está o link da apresentação, na qual eu apresento todas as aplicações: 
 

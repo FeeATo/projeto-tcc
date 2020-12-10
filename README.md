@@ -20,7 +20,7 @@ StringConexao().
 <br/>
 
 Java: Na classe “ClasseConexaoJava”, altere os valores marcados.
-<img src="https://imgur.com/vICbDfG" width="700px">
+<img src="https://i.imgur.com/vICbDfG.png" width="700px">
 
 
 

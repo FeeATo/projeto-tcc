@@ -4,7 +4,7 @@ Meu nome é Miguel Teles, sou técnico em informática pela Escola Técnica Esta
 
 <h3>Este é o projeto do meu TCC do curso técnico!</h3>
 
-O projeto de TCC foi dividido em 4 partes: uma aplicação desktop em C#, outra aplicação desktop em Java, uma aplicação Web em ASP.NET e uma aplicação Mobile em Java. Por mim, foram feitos, por completo, o <p style="color:#FF0000";>C#</p>, Java e Mobile. 
+O projeto de TCC foi dividido em 4 partes: uma aplicação desktop em C#, outra aplicação desktop em Java, uma aplicação Web em ASP.NET e uma aplicação Mobile em Java. Por mim, foram feitos, por completo, o <p color:#FF0000>C#</p>, Java e Mobile. 
 
 Aqui está o link da apresentação, na qual eu apresento todas as aplicações: 
 

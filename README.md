@@ -8,4 +8,4 @@ O projeto de TCC foi dividido em 4 partes: uma aplicação desktop em C#, outra 
 
 Aqui está o link da apresentação, na qual eu apresento todas as aplicações: 
 
-Guia para rodar as aplicações
+<h3>Guia para rodar as aplicações</h3>

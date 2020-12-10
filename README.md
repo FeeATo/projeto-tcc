@@ -4,8 +4,14 @@ Meu nome é Miguel Teles, sou técnico em informática pela Escola Técnica Esta
 
 <b>Este é o projeto do meu TCC do curso técnico!</b>
 
-O projeto de TCC foi dividido em 4 partes: uma aplicação desktop em C#, outra aplicação desktop em Java, uma aplicação Web em ASP.NET e uma aplicação Mobile em Java. Por mim, foram feitos, por completo, o <strong>C#</strong>, <strong>Java</strong> e <strong>Mobile</strong>. 
-
-Aqui está o link da apresentação, na qual eu apresento todas as aplicações: 
+O tema do TCC é uma plataforma na qual prestadores de serviço podem fornecer seus trabalhos e clientes podem contratá-los. Basicamente um "iFood/Uber de serviços". O tema é melhor explicado na apresentação, que também é mostrado as aplicações: LINK ALTERAR
+O projeto foi dividido em 4 partes: uma aplicação desktop em C#, outra aplicação desktop em Java, uma aplicação Web em ASP.NET e uma aplicação Mobile em Java. Por mim, foram feitos, por completo, o <strong>C#</strong>, <strong>Java</strong> e <strong>Mobile</strong>. 
 
 <h3>Guia para rodar as aplicações</h3>
+
+<h4>Antes de iniciar as aplicações, é preciso alterar alguns valores para as aplicações rodarem na
+sua máquina!</h4>
+
+testeaaaaaa
+
+

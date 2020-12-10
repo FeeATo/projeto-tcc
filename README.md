@@ -23,11 +23,11 @@ Java: Na classe “ClasseConexaoJava”, altere os valores marcados.
 <img src="https://i.imgur.com/vICbDfG.png" width="700px">
 <br/>
 
-<b>2<b/>. Imagens default <br/>
+<b>2</b>. Imagens default <br/>
 Ao cadastrar um novo prestador, uma imagem default é cadastrada. Para isso, é preciso criar
 uma pasta e adicionar a imagem “User” em uma pasta. Depois, na consulta “TccCSharp” do
 SQL Server e altere o código marcado com o local em que foi salvada a imagem “User” (não
-esqueça de colocar duas barras).
+esqueça de colocar duas barras).<br/>
 <img src="https://i.imgur.com/hwV03U0.png" width="700px">
 
 

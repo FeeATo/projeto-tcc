@@ -17,5 +17,13 @@ C#: Vá na classe ConnectionString e altere a string de conexão no Return do m�
 StringConexao().
 
 <img src="https://i.imgur.com/cvz3Cki.png" width="700px">
+<br/>
+
+Java: Na classe “ClasseConexaoJava”, altere os valores marcados.
+<img src="https://imgur.com/vICbDfG" width="700px">
+
+
+
+
 
 

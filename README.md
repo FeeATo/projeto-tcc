@@ -29,7 +29,7 @@ uma pasta e adicionar a imagem “User” em uma pasta. Depois, na consulta “T
 SQL Server e altere o código marcado com o local em que foi salvada a imagem “User” (não
 esqueça de colocar duas barras).<br/>
 <img src="https://i.imgur.com/hwV03U0.png" width="700px"><br/>
-<h5><i>Explicação dos procedimentos na consulta “TccCSharp”</i></h5>
+<i>Explicação dos procedimentos na consulta “TccCSharp”</i>
 
 
 

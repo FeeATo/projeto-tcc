@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-91dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/txtBemvindo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="36dp"
+                android:text="Edite seu perfil:"
+                android:textColor="#221E1E"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="349dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#777777"
+                android:text="Não esqueça de salvar!"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editNomeEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="12dp"
+                android:textColorHint="#D3D3D3"
+                android:textColor="#616161"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="Nome completo"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editEmailEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColor="#616161"
+                android:layout_marginTop="24dp"
+                android:textColorHint="#D3D3D3"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:editable="false"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editTelefoneEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColorHint="#D3D3D3"
+                android:textColor="#616161"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="Telefone"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editDtNascEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColorHint="#D3D3D3"
+                android:textColor="#616161"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="Data de nascimento"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editEnderecoEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColorHint="#D3D3D3"
+                android:textColor="#616161"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="Endereço"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editNumeroEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColorHint="#D3D3D3"
+                android:textColor="#616161"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="Número"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editComplementoEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColorHint="#D3D3D3"
+                android:textColor="#616161"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="Complemento"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editCpfEditarCliente"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColorHint="#D3D3D3"
+                android:layout_marginTop="24dp"
+                android:textColor="#616161"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="CPF"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/idClienteEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID: 10"
+                android:textColor="#CDCDCD"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="360dp"/>
+
+            <Button
+                android:id="@+id/btnSalvarEditarCliente"
+                android:layout_width="326dp"
+                android:layout_height="77dp"
+                android:background="@drawable/botaoarredondadoazul"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Salvar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

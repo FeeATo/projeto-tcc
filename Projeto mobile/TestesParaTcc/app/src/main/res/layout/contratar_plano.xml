@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+
+
+        android:background="@drawable/shadow_titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="418dp"
+        android:layout_height="70dp"
+        android:background="@color/MenuBaixoPrest"
+        android:paddingTop="20dp"
+        android:text="Assinatura"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPlanoy"
+        android:layout_width="314dp"
+        android:layout_height="257dp"
+        android:background="@drawable/borda_plano_text"
+
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Com o Plano Premium você tera vantagens como:\n\n - Suporte Direto e Eficiente\n\n - Maior Divulgação no aplicativo\n\n - Descontos exclusivos\n\n - Promoções imperdíveis "
+        android:textColor="#252525"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="314dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/menu_plano_medio"
+        android:fontFamily="@font/baloo"
+
+        android:paddingLeft="25dp"
+        android:paddingTop="20dp"
+        android:text="Plano premium"
+
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/btnContratarPlano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/capriola"
+        android:text="🛒️ Contratar Plano >"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textView31"
+        app:layout_constraintEnd_toEndOf="@+id/textView31"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toTopOf="@+id/textView31"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView31"
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/btnVoltarMenu"
+        android:layout_width="63dp"
+        android:layout_height="75dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="▶"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

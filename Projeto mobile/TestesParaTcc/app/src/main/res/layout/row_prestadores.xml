@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imgprestadorSituacaoListModelPrestador"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/nomeListModelPrestador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="70dp"
+        android:text="Miguel Alota"
+        android:textColor="#454545"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/idPrestadorListModelPrestador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="0dp"
+        android:layout_alignParentRight="true"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/qtndServicosListModelPrestador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="70dp"
+        android:text="10 serviços realizados"
+        android:textSize="16sp"
+        android:textColor="#ababab"/>
+
+    <TextView
+        android:id="@+id/planoListModelPrestador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="70dp"
+        android:text="Complemento pipa"
+        android:textSize="13sp"
+        android:textColor="#ababab"/>
+
+    <RatingBar
+        android:id="@+id/ratingBarListModelPrestador"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="60dp"
+        android:max="5"
+        android:scaleX="1.7"
+        android:scaleY="1.7"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+        android:isIndicator="true"
+        android:progressBackgroundTint="#dee6ff"
+        android:progressTint="#7d9dff"
+        android:secondaryProgressTint="#3455b9"/>
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="395dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="100dp"
+        android:background="#C8C8C8"
+        android:text="TextView" />
+
+
+</RelativeLayout>

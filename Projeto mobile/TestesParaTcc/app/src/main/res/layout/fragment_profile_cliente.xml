@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="77dp">
+
+        <Button
+            android:id="@+id/btnPerfilClienteProfile"
+            android:layout_width="390dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="11dp"
+            android:background="@drawable/botao_meuperfil"
+            android:drawableLeft="@drawable/ic_account"
+            android:textColor="#4A4A4A"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20dp"
+            android:text="Perfil"
+            android:textAlignment="viewStart"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btnDeletarProfile"
+            android:layout_width="390dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="#4A4A4A"
+            android:background="@drawable/botao_meuperfil"
+            android:drawableStart="@drawable/ic_delete"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20dp"
+            android:text="Deletar conta"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnSairProfileCliente"
+            android:layout_width="390dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="#4A4A4A"
+            android:background="@drawable/botao_meuperfil"
+            android:drawableLeft="@drawable/ic_exit"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20dp"
+            android:text="Sair"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@color/MenuBaixo"
+        android:paddingTop="20dp"
+        android:text="Sua conta"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/textView32"
+        android:background="@drawable/shadow_titulo"/>
+
+
+</RelativeLayout>

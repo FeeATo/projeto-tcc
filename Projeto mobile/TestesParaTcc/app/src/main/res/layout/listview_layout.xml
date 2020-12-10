@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imagePrestadorProfile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.11"/>
+
+        <TextView
+            android:id="@+id/nome_prestador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imagePrestadorProfile"
+            android:layout_toRightOf="@+id/imagePrestadorProfile"
+            android:text="#333"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/telefone_prestador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nome_prestador"
+            android:layout_toEndOf="@+id/imagePrestadorProfile"
+            android:layout_toRightOf="@+id/imagePrestadorProfile"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:textColor="#333"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

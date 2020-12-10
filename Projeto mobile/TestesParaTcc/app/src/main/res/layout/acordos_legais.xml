@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/btnNextAcordos"
+        android:layout_width="326dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/botaoarredondadoazul"
+        android:text="Confirmar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="327dp"
+        android:layout_height="266dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="8dp"
+        android:text="Ao clicar na caixa de seleçao abaixo e enviar o formulário de resgistro da Point Labor, eu concordo com a coleta e o processamento, por parte da Point Labor e seus prestadores de serviços, dos meus dados pessoais, incluindo dados sensíveis, com o objetivo de avaliar a minha elegibilidade ao uso, ou continuidade do uso, da plataforma Point Labor, bem como para as finalidades descritas na Declaração de Privacidade do Prestador de Serviço Parceiro da Point Labor. Declaro a veracidade e a precisão das informações e dos documentos enviados à Point Labor para fins de registro."
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="294dp"
+        android:text="Declaração de checagem de antecedentes"
+        android:textColor="#000"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="ACORDOS LEGAIS"
+        android:textColor="#4A4A4A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="242dp"
+        android:text="Consentimento Legal"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbCiente"
+        android:layout_width="256dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="532dp"
+        android:text="Eu estou ciente e aceito os acordos"
+        android:textColor="#888888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:buttonTint="#AAAAAA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="124dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

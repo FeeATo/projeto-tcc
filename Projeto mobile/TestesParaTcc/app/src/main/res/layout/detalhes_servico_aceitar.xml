@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imgStatusAceitar"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtNomeAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="208dp"
+        android:text="Luis Ricardo Alves"
+        android:textColor="#3C3C3C"
+
+
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/imgStatusAceitar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEnderecoAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Rua Lagosta de Oliveira, 170"
+        android:textColor="#717171"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgStatusAceitar" />
+
+    <TextView
+        android:id="@+id/txtComplementoAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Casa 22 Quadra 4"
+        android:textColor="#717171"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgStatusAceitar" />
+
+    <TextView
+        android:id="@+id/txtIdClienteAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="36dp"
+        android:text="ID Cliente: 10"
+
+        android:textColor="#BDBDBD"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtIdServicoAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="36dp"
+        android:text="ID Serviço: 10"
+        android:textColor="#BDBDBD"
+
+        android:textSize="9.5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtStatusAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="Em andamento"
+        android:textColor="#AEAEAE"
+        android:textSize="9.5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTelefoneAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="188dp"
+        android:text="(11)91319-3155"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAceitarTerminarServico"
+        android:layout_width="295dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:text="Aceitar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/botao_arredondado_verde"
+        app:layout_constraintTop_toBottomOf="@+id/txtComplementoAceitar" />
+
+    <Button
+        android:id="@+id/btnRecusarCancelarServico"
+        android:layout_width="72dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/baloo"
+        android:paddingTop="-10dp"
+        android:textSize="30sp"
+        android:text="X"
+        android:background="@drawable/botao_arredondado_vermelho"
+        app:layout_constraintEnd_toStartOf="@+id/btnAceitarTerminarServico"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtComplementoAceitar" />
+
+    <TextView
+        android:id="@+id/txtMensagemErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAceitarTerminarServico" />
+</androidx.constraintlayout.widget.ConstraintLayout>

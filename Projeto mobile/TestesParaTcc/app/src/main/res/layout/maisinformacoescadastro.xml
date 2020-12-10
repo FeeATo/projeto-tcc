@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infodetrampo">
+
+
+    <ImageView
+        android:id="@+id/imagePrestadorProfile"
+        android:layout_width="83dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/botaoarredondado"
+        android:text="Ajuda"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFalta"
+        android:layout_width="367dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="244dp"
+        android:text="Falta pouco!"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="Falta algumas informações, preencha-as:"
+        android:textColor="#BFC9FF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFalta" />
+
+    <Button
+        android:id="@+id/btnImg"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botaoarredondado"
+        android:paddingLeft="16dp"
+
+        android:text="• Foto de perfil"
+        android:textAlignment="viewStart"
+        android:textColor="#3455B9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/btnEndereco"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botaoarredondado"
+        android:paddingLeft="16dp"
+        android:text="• Endereço"
+        android:textAlignment="viewStart"
+        android:textColor="#3455B9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnImg" />
+
+    <Button
+        android:id="@+id/btnRgCpf"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botaoarredondado"
+        android:paddingLeft="16dp"
+        android:text="• RG e CPF"
+        android:textAlignment="viewStart"
+        android:textColor="#3455b9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEndereco" />
+
+    <Button
+        android:id="@+id/btnServico"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botaoarredondado"
+        android:paddingLeft="16dp"
+        android:text="• Informações do serviço"
+        android:textAlignment="viewStart"
+        android:textColor="#3455b9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRgCpf" />
+
+    <TextView
+        android:id="@+id/txtEmailPrestProfile"
+        android:layout_width="367dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginTop="74dp"
+        android:text="Caso você clique em continuar sem informar os dados, você não estará disponível para fazer o serviço. Mas poderá inseri-los outro momento. "
+        android:textColor="#858181"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnServico" />
+
+    <Button
+        android:id="@+id/btnAcordosLegais"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botaoarredondadoazul"
+        android:text="Acordos legais"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailPrestProfile" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

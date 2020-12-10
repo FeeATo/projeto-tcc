@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/txtBemvindo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="Bem-vindo!"
+            android:textColor="#221E1E"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="349dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="Preencha os campos para continuar:"
+                android:textColor="#818181"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editNome"
+                android:layout_width="349dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="32dp"
+                android:textColorHint="#9A9A9A"
+                android:layout_marginTop="12dp"
+                android:textColor="#606060"
+                android:background="@drawable/retangulocadastro"
+                android:ems="10"
+                android:hint="Nome completo"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="24dp"
+            android:textColorHint="#9A9A9A"
+            android:textColor="#606060"
+            android:background="@drawable/retangulocadastro"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editTelefone"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:textColor="#606060"
+            android:layout_marginTop="24dp"
+            android:textColorHint="#9A9A9A"
+            android:background="@drawable/retangulocadastro"
+            android:ems="10"
+            android:hint="Telefone"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editDtNasc"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:textColor="#606060"
+            android:layout_marginTop="24dp"
+            android:textColorHint="#9A9A9A"
+            android:background="@drawable/retangulocadastro"
+            android:ems="10"
+            android:hint="Data de nascimento"
+            android:inputType="date"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editSenha"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:textColor="#606060"
+            android:layout_marginTop="24dp"
+            android:textColorHint="#9A9A9A"
+            android:background="@drawable/retangulocadastro"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editSenhaConfir"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:textColor="#606060"
+            android:layout_marginTop="24dp"
+            android:textColorHint="#9A9A9A"
+            android:background="@drawable/retangulocadastro"
+            android:ems="10"
+            android:hint="Confirme sua senha"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:text="Ao continuar, eu concordo com os Termos de Uso da Point Labor e confirmo que li a Política de Privacidade \n\n Eu também concordo que a Point Labor e seus representantes podem entrar em contato comigo por e-mail,telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que forneci,inclusive para fins de marketing"
+            android:textColor="#000"
+            android:textSize="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnCad"
+                android:layout_width="326dp"
+                android:layout_height="77dp"
+                android:background="@drawable/botaoarredondadoazul"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:text="Cadastrar" />
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

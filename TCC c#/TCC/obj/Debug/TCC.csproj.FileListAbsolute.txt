@@ -1,0 +1,32 @@
+C:\Users\Ernesto!\source\repos\TCC\TCC\bin\Debug\TCC.exe.config
+C:\Users\Ernesto!\source\repos\TCC\TCC\bin\Debug\TCC.exe
+C:\Users\Ernesto!\source\repos\TCC\TCC\bin\Debug\TCC.pdb
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.csprojAssemblyReference.cache
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.Form1.resources
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.Properties.Resources.resources
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.csproj.GenerateResource.cache
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.exe
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.Controledosfuncionarios.resources
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.Estatisticas.resources
+C:\Users\Ernesto!\source\repos\TCC\TCC\obj\Debug\TCC.Cadastro.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\bin\Debug\TCC.exe.config
+C:\Users\Pichau\source\repos\TCC c#\TCC\bin\Debug\TCC.exe
+C:\Users\Pichau\source\repos\TCC c#\TCC\bin\Debug\TCC.pdb
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.csprojAssemblyReference.cache
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.frmLogin.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.Properties.Resources.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.csproj.GenerateResource.cache
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.exe
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.pdb
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.frmMenu.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.frmPaginaPrincipal.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.EditarDadosForms.frmEditarUsuario.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.EditarDadosForms.frmEditarPrestador.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.EditarDadosForms.frmEditarAdm.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.frmConfirmarSenhaMsg.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.EditarDadosForms.frmEditarServico.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.Mensagens.frmNotas.resources
+C:\Users\Pichau\source\repos\TCC c#\TCC\obj\Debug\TCC.Mensagens.frmMensagem.resources

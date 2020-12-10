@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Vamos criar sua conta!"
+            android:textAlignment="center"
+            android:textColor="#221E1E"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.757"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginTop="0dp"
+            android:text="Dados pessoais"
+            android:textAlignment="center"
+            android:textColor="#7A7A7A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/retangulocadastro"
+            android:ems="10"
+            android:hint="Nome Completo"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:background="@drawable/retangulocadastro"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <EditText
+            android:id="@+id/editTelefone"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/retangulocadastro"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="Número de Telefone"
+            android:inputType="phone"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="493dp" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/retangulocadastro"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="Insira sua senha"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="466dp" />
+
+
+        <EditText
+            android:id="@+id/editNascimento"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/retangulocadastro"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="Data de Nascimento"
+            android:inputType="date"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <EditText
+            android:id="@+id/edtcpf"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/retangulocadastro"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="CPF"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <EditText
+            android:id="@+id/edtende"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/retangulocadastro"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="Endereco"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <EditText
+            android:id="@+id/edtnumero"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/retangulocadastro"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="Numero"
+            android:inputType="number"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <EditText
+            android:id="@+id/edtcomple"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/retangulocadastro"
+            android:textColorHint="#9F9F9F"
+            android:textColor="#4C4C4C"
+            android:padding="10dp"
+            android:ems="10"
+            android:hint="Complemento"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Ao continuar, eu concordo com os Termos de Uso da Point Labor e confirmo que li a Política de Privacidade \n\n Eu também concordo que a Point Labor e seus representantes podem entrar em contato comigo por e-mail,telefone ou SMS (inclusive por meios automatizados) no endereço de e-mail ou número que forneci,inclusive para fins de marketing"
+            android:textColor="#000"
+            android:textSize="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <Button
+            android:id="@+id/btnProximo"
+            android:layout_width="326dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/botaoarredondadoazul"
+            android:text="Cadastrar"
+
+            android:layout_marginLeft="40dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -31,6 +31,11 @@ esqueça de colocar duas barras).<br/>
 <img src="https://i.imgur.com/hwV03U0.png" width="700px">
 <h6><i>Explicação dos procedimentos na consulta “TccCSharp”</i></h6>
 
+<b>3</b>. Imagens nos inserts da consulta <br/>
+Antes de inserir os valores da tabela PrestServ, altere o código marcado com o endereço e
+nomes das imagens baixadas juntas aos projetos.<br/>
+<img src="https://i.imgur.com/FZKVX47.png" width="700px">
+
 
 
 

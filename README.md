@@ -2,7 +2,7 @@
 
 Meu nome é Miguel Teles, sou técnico em informática pela Escola Técnica Estadual de São Paulo (ETESP). Você pode entrar em contato comigo aqui <a href="https://www.linkedin.com/in/miguel-teles-6a9b161b0/"> <img src="https://image.flaticon.com/icons/png/512/174/174857.png" width="15"> </a>
 
-<h2>Este é o projeto do meu TCC do curso técnico.</h2>
+<h4>Este é o projeto do meu TCC do curso técnico.</h4>
 
 O projeto de TCC foi dividido em 4 partes: uma aplicação desktop em C#, outra aplicação desktop em Java, uma aplicação Web em ASP.NET e uma aplicação Mobile em Java. Por mim, foram feitos, por completo, o c#, java e mobile. 
 

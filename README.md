@@ -12,7 +12,7 @@ O projeto foi dividido em 4 partes: uma aplicação desktop em C#, outra aplica�
 <h4>Antes de iniciar as aplicações, é preciso alterar alguns valores para as aplicações rodarem na
 sua máquina!</h4>
 
-<b>1</b>. Altere as Strings de conexão: <br/>
+<b>1</b>. Altere as Strings de conexão <br/>
 C#: Vá na classe ConnectionString e altere a string de conexão no Return do método
 StringConexao().
 
@@ -21,8 +21,14 @@ StringConexao().
 
 Java: Na classe “ClasseConexaoJava”, altere os valores marcados.
 <img src="https://i.imgur.com/vICbDfG.png" width="700px">
+<br/>
 
-
+<b>2<b/>. Imagens default <br/>
+Ao cadastrar um novo prestador, uma imagem default é cadastrada. Para isso, é preciso criar
+uma pasta e adicionar a imagem “User” em uma pasta. Depois, na consulta “TccCSharp” do
+SQL Server e altere o código marcado com o local em que foi salvada a imagem “User” (não
+esqueça de colocar duas barras).
+<img src="https://i.imgur.com/hwV03U0.png" width="700px">
 
 
 

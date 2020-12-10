@@ -1,6 +1,6 @@
 # Olá! <img src="https://static.skaip.org/img/emoticons/180x180/f6fcff/hi.gif" width="20px">
 
-Meu nome é Miguel Teles, sou técnico em informática pela Escola Técnica Estadual de São Paulo (ETESP). Você pode me contatar aqui <a href="https://www.linkedin.com/in/miguel-teles-6a9b161b0/"> <img src="https://image.flaticon.com/icons/png/512/174/174857.png" width="10"> </a>
+Meu nome é Miguel Teles, sou técnico em informática pela Escola Técnica Estadual de São Paulo (ETESP). Você pode me contatar aqui <a href="https://www.linkedin.com/in/miguel-teles-6a9b161b0/"> <img src="https://image.flaticon.com/icons/png/512/174/174857.png" width="15"> </a>
 
 Este é o projeto do meu TCC do curso técnico.
 

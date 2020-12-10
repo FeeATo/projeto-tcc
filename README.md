@@ -11,7 +11,7 @@ O projeto foi dividido em 4 partes: uma aplicação desktop em C#, outra aplica�
 
 <h4>Antes de iniciar as aplicações, é preciso alterar alguns valores para as aplicações rodarem na
 sua máquina!</h4>
-<h6>⚠ Baixe todos os arquivos disponibilizados ⚠</h6>
+<h6>⚠ Baixe todos os arquivos disponibilizados ⚠</h6><br/>
 
 <b>1</b>. Altere as Strings de conexão <br/>
 C#: Vá na classe ConnectionString e altere a string de conexão no Return do método

@@ -4,7 +4,7 @@ Meu nome é Miguel Teles, sou técnico em informática pela Escola Técnica Esta
 
 <b>Este é o projeto do meu TCC do curso técnico!</b>
 
-O tema do TCC é uma plataforma na qual prestadores de serviço podem fornecer seus trabalhos e clientes podem contratá-los. Basicamente um "iFood/Uber de serviços". O tema é melhor explicado na apresentação, que também é mostrado as aplicações: LINK ALTERAR
+O tema do TCC é uma plataforma na qual prestadores de serviço podem fornecer seus trabalhos e clientes podem contratá-los. Basicamente um "iFood/Uber de serviços". O tema é melhor explicado na apresentação, que também é mostrado as aplicações: https://www.youtube.com/watch?v=n7wR8z3n5OQ&feature=youtu.be <br/>
 O projeto foi dividido em 4 partes: uma aplicação desktop em C#, outra aplicação desktop em Java, uma aplicação Web em ASP.NET e uma aplicação Mobile em Java. Por mim, foram feitos, por completo, o <strong>C#</strong>, <strong>Java</strong> e <strong>Mobile</strong>. 
 
 <h3>Guia para rodar as aplicações ⚙</h3>
